@@ -26,6 +26,8 @@ businesses = [{
     "review": []
 }]
 
+
+
 @app.route('/', methods=['GET'])
 def home():
     return jsonify({"messgae":"Welcome to COM661"})
